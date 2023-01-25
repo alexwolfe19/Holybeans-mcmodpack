@@ -1,5 +1,6 @@
 # Holybean Modpack
-This is my modpack, which contains mods for Minecraft... ummm... pizza.
+This is my modpack, which contains mods for Minecraft.
+This modpack is for Curseforge, but I *might* try and add an action to automatically build the modpack for other platforms, since Curseforge is ... curseforge.
 
 ## Contents
 - [CoroUtil (by Corosus)](https://www.curseforge.com/minecraft/mc-mods/coroutil)
