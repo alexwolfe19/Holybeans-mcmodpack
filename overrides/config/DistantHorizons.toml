@@ -18,7 +18,7 @@ optionsButton = true
 			# BLOCK: render 256 LODs for each Chunk (width of one block). 
 			#
 			# Lowest Quality: CHUNK Highest Quality: BLOCK
-			drawResolution = "BLOCK"
+			drawResolution = "CHUNK"
 			# The radius of the mod's render distance. (measured in chunks) 
 			#
 			lodChunkRenderDistance = 128
@@ -31,7 +31,7 @@ optionsButton = true
 			# HIGH: uses at max 8 columns per position. 
 			#
 			# Lowest Quality: LOW Highest Quality: HIGH
-			verticalQuality = "MEDIUM"
+			verticalQuality = "LOW"
 			# This indicates how quickly fake chunks decrease in quality the further away they are. 
 			# Higher settings will render higher quality fake chunks farther away, 
 			# but will increase memory and GPU usage.
@@ -285,7 +285,7 @@ optionsButton = true
 		#
 		# Note that in server, distant generation is always off. 
 		#
-		enableDistantGeneration = true
+		enableDistantGeneration = false
 		distanceGenerationMode = "FEATURES"
 		# How should block and sky lights be processed for distant generation? 
 		#
@@ -296,7 +296,7 @@ optionsButton = true
 		# FANCY: Use actaul light engines to generate proper values. 
 		#
 		# This will effect generation speed, but not the rendering performance.
-		lightGenerationMode = "FANCY"
+		lightGenerationMode = "FAST"
 		# In what priority should fake chunks be generated outside the vanilla render distance? 
 		#
 		# FAR_FIRST 
